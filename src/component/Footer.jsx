@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="row items-center">
                     <div className="col-sm-6">
                         <div className="text-4xl text-white logo font-logo">
-                            Geet
+                            Bharat
                         </div>
                     </div>
                     <div className="col-sm-6 text-center ml-auto">

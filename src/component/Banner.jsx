@@ -53,7 +53,7 @@ const Banner = () => {
                                 Welcome to My Portfolio 
                             </div>
                             <h1 className='text-6xl md:text-5xl sm:xl font-bold tracking-tight  mb-5 block'>
-                                Hello I Am Geetanjali <span className='wrap border-r-4 border-cursor pr-1 text-yellow-400'>
+                                Hello I Am Bharat <span className='wrap border-r-4 border-cursor pr-1 text-yellow-400'>
                                     {text}
                                 </span>
                             </h1>

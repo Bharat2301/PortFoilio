@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import './myNav.css';
 import { AiFillLinkedin , AiOutlineGithub} from "react-icons/ai";
 import { SiLeetcode } from "react-icons/si";
-import cv from '../assets/geetanjalichawla.pdf'
+import cv from '../assets/cvv.pdf'; 
 const MyNav = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [scolled, setScolled] = useState(false);
@@ -31,7 +31,7 @@ const onUpdateActiveLink = (v)=>setActiveLink(v);
     <Navbar expand="lg" className={`fixed w-full top-0 z-50 transition-all duration-75 ease-in-out  justify-center items-center flex ${scolled ? "p-0 bg-gray-900":"bg-black lg"}`}>
       <Container>
         <Navbar.Brand href="#home" className='text-9xl text-white logo' >
-            Geet
+            Bharat
           </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav"  > 
@@ -45,14 +45,14 @@ const onUpdateActiveLink = (v)=>setActiveLink(v);
           </Nav>
           <span className='navbar-text'>
             <div className="socail-icons flex gap-2 ">
-            <a  rel="noopener noreferrer"className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 text-white hover:bg-white  border-white rounded-full  " href="https://www.linkedin.com/in/geetanjalichawla/" target='_blank'>
+            <a  rel="noopener noreferrer"className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 text-white hover:bg-white  border-white rounded-full  " href="www.linkedin.com/in/bharat-tejwani2301" target='_blank'>
                 <AiFillLinkedin 
                 className=' text-lg'/>
               </a>
-              <a rel="noopener noreferrer" className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 border-white rounded-full  text-white  hover:bg-white  " href="https://github.com/geetanjalichawla" target='_blank'>                <AiOutlineGithub
+              <a rel="noopener noreferrer" className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 border-white rounded-full  text-white  hover:bg-white  " href="https://github.com/Bharat2301" target='_blank'>                <AiOutlineGithub
                 className=' text-lg'/>
               </a>
-              <a rel="noopener noreferrer" className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 border-white rounded-full   text-white  hover:bg-white  " href="https://leetcode.com/geetanjalichawla" target='_blank'>
+              <a rel="noopener noreferrer" className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 border-white rounded-full   text-white  hover:bg-white  " href="https://leetcode.com/u/Bharat2301/" target='_blank'>
                 <SiLeetcode
                 className=' text-lg'/>
               </a>
