@@ -38,7 +38,7 @@ const onUpdateActiveLink = (v)=>setActiveLink(v);
           <span className='navbar-toggler-icon'></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto flex flex-col lg:flex-col">
+          <Nav className=" ml-4 me-auto flex flex-col lg:flex-col">
             <Nav.Link href="#home" className={ `ml-4 no-underline text-white navbar-Link capitalize ${activeLink === 'home' ? 'active':""}`}  onClick={()=> onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#skills" className={ ` no-underline  text-white navbar-Link capitalize ${activeLink === 'skills' ? 'active':""}`}  onClick={()=> onUpdateActiveLink('skills')}>skills</Nav.Link>
             <Nav.Link href="#projects" className={ ` no-underline  text-white navbar-Link capitalize ${activeLink === 'projects' ? 'active':""}`}  onClick={()=> onUpdateActiveLink('projects')}>projects</Nav.Link>
