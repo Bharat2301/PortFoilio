@@ -14,7 +14,7 @@ const Project = () => {
             description:"Online food delivery app",
             url : Food,
             id : 1,
-            websiteUrl : "https://food-4wl8skd02-bharattejwani123456gmailcoms-projects.vercel.app/"
+            websiteUrl : "https://food-kohl-theta.vercel.app/"
 
 
         },
